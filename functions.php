@@ -1,8 +1,14 @@
 <?php
 /**
  * @param $bug
- * @return void
+ * @return string
  */
 public function solveBug($bug){
     $bug->getFixedPlz();
+
+    return "Fixed";
+}
+
+public function anotherChange(){
+    echo "a change";
 }
